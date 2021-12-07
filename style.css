@@ -1,0 +1,80 @@
+body {
+  background-color: darkslategrey;
+}
+
+li {
+  color: lightblue;
+}
+
+p {
+  background-color: white;
+  display: inline-flex;
+  font-size: 50px;
+  margin-left: 90%;
+  margin-top: 5%;
+
+}
+
+h1 {
+  text-align: center;
+  color: lightblue;
+  background-color: lightslategray;
+  margin: auto;
+  border: 3px solid darkslategray;
+  border-radius: 50px;
+}
+
+.startBtn {
+  margin: 5%;
+  width: 50%;
+  border: 3px solid darkslategray;
+  padding: 10px;
+  text-align: center;
+  background-color: lightslategray;
+  color: lightblue;
+  border-radius: 50px;
+  text-align: center;
+}
+
+/* .container {
+  height: 20%;
+  position: relative;
+  border: 3px
+} */
+.scoreForm {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: lightblue;
+}
+
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.questions {
+  color: lightblue;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 667px) {
+  .center {
+    margin-top: 30%;
+  }
+
+  .container {
+    margin-top: 2%;
+  }
+}
